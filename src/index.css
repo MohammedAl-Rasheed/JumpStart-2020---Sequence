@@ -1,0 +1,74 @@
+body {
+background-color: #323232;
+overflow:hidden;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1F1F1F;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 60px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #A691C2;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.fa-user-circle {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+}
+
+.fa-tasks {
+  position: absolute;
+  left: 30px;
+  color: #A691C2;
+}
+
+.fa-sticky-note {
+  top: 140px;
+  position: absolute;
+  left: 35px;
+}
+
+.fa-clock {
+  position: absolute;
+  left: 30px;
+  top: 250px;
+}
+
+.preview {
+  position: relative;
+  left: 200px;
+  top: 30px;
+}
+
+
+
+
